@@ -1,0 +1,943 @@
+{
+  "teams": [
+    {
+      "id": "0ad5c9dd-868d-41e6-8b13-ce2a1aba90a0",
+      "name": "Team 1",
+      "players": [
+        "beb31a5e-81fc-44db-a58a-63fd46d44288",
+        "a6d6ec4a-dcee-48df-93ef-880c5eae1cc7",
+        "a9050cfb-bb23-4ee8-bf51-a3d5943d937b"
+      ],
+      "player_names": [
+        "Bennet",
+        "Leandro",
+        "Franchesco"
+      ],
+      "group": "Group 1"
+    },
+    {
+      "id": "c7b38610-6afc-4153-a674-e205002c05d1",
+      "name": "Team 2",
+      "players": [
+        "d186da0b-7b61-4263-9641-2aa8c9734c7e",
+        "fd52a52a-de79-46d2-a947-5b2d536434fd",
+        "a6485174-5687-4a66-8400-6c55048f0561"
+      ],
+      "player_names": [
+        "Tobias",
+        "Ashwin",
+        "Chicha"
+      ],
+      "group": "Group 1"
+    },
+    {
+      "id": "28766fc0-0040-4ab4-8021-d7e1aa9f8588",
+      "name": "Team 3",
+      "players": [
+        "e0323501-1a16-4c3a-a0e1-712f2f64e6f4",
+        "ab8412ad-311c-4ae4-9f1f-9b5c3254a512",
+        "14df8e8d-7e87-491d-bb86-8c9ccfea04da"
+      ],
+      "player_names": [
+        "Sofo",
+        "Merlin",
+        "Maxi"
+      ],
+      "group": "Group 1"
+    },
+    {
+      "id": "bc18eca0-b377-4134-9ed7-0ddb6cc747ff",
+      "name": "Team 4",
+      "players": [
+        "bd2cbd4b-d757-4e91-8e6e-dc464766fe98",
+        "73f2d661-7065-43f7-98b7-7674386117c4",
+        "078a0361-3394-4d1f-98ba-f021497236e0"
+      ],
+      "player_names": [
+        "Leo",
+        "Danny",
+        "Pena"
+      ],
+      "group": "Group 1"
+    },
+    {
+      "id": "8672ee53-5280-463b-a8f8-977bcf0073ed",
+      "name": "Team 5",
+      "players": [
+        "e60be0d3-1d9e-4ba7-ac1f-166de8535f02",
+        "f25d78e7-25bf-468d-9002-2524c34fe38b",
+        "f137d4d4-e4c7-4d66-8c14-1855c6f06f52"
+      ],
+      "player_names": [
+        "Tassilo",
+        "Greco",
+        "Geb"
+      ],
+      "group": "Group 1"
+    },
+    {
+      "id": "972987d1-98c3-418a-9c2e-e139d024a13d",
+      "name": "Team 6",
+      "players": [
+        "b2fcfebe-be9d-475e-ab38-c7a3b5935f44",
+        "84cd7667-e77a-4aee-b0d3-7cb72a5da16d",
+        "b426acf0-9ce4-4590-901d-85adb2e8cccd"
+      ],
+      "player_names": [
+        "Lucas",
+        "Fabien",
+        "Antonio"
+      ],
+      "group": "Group 1"
+    },
+    {
+      "id": "80745107-311c-4f78-b1c6-7df6bccb5af6",
+      "name": "Team 7",
+      "players": [
+        "70460ee1-0c6a-4de2-a6db-98870b35f6d6",
+        "b05efa63-bd4a-4fd4-99ee-e157412ceca7",
+        "bbb38aab-b355-4796-8959-3fc7ce938d2d"
+      ],
+      "player_names": [
+        "Marco",
+        "Tim O",
+        "Jaime"
+      ],
+      "group": "Group 2"
+    },
+    {
+      "id": "b07dfaf7-adb8-421e-99d8-cf78fa41f738",
+      "name": "Team 8",
+      "players": [
+        "a3a46e22-ec64-426b-8df6-3ec2434681ea",
+        "90a0aca0-5fd0-4c16-99d3-78f6e64f6ea3",
+        "62945ff2-ac8d-44ef-a0cd-898a08591389"
+      ],
+      "player_names": [
+        "Guilherme",
+        "Tim H",
+        "Ashton"
+      ],
+      "group": "Group 2"
+    },
+    {
+      "id": "03dea14d-3845-4472-be75-72b4b9efe441",
+      "name": "Team 9",
+      "players": [
+        "5bf4bfc2-1c08-464c-89d8-2dea345687b9",
+        "a0856fff-7585-49cf-b68e-d0f995ac8e6a",
+        "2052a4f6-0e30-4e22-95c9-21f9ecf097a3"
+      ],
+      "player_names": [
+        "Elis",
+        "Nico L",
+        "Tim T"
+      ],
+      "group": "Group 2"
+    },
+    {
+      "id": "264e5b30-d9f5-4347-85d4-205f21d01e96",
+      "name": "Team 10",
+      "players": [
+        "c95aabf3-6e7a-426c-b604-9359e67b2f90",
+        "2e375766-97a7-4cd9-a95d-af58c41a4f13",
+        "a9e32e40-128c-461a-998c-dd74c023c828"
+      ],
+      "player_names": [
+        "Ramdane",
+        "Guga",
+        "Josue"
+      ],
+      "group": "Group 2"
+    },
+    {
+      "id": "eafd4624-78eb-4e34-82af-b3c5eb30372d",
+      "name": "Team 11",
+      "players": [
+        "925807ae-5116-4e00-91eb-302713506644",
+        "9a8a5050-f8f0-47f0-ae41-e436da948dcb",
+        "893b7a4d-4379-4af9-865f-fe1b32462dde"
+      ],
+      "player_names": [
+        "Maris",
+        "Kyriacos",
+        "Jama"
+      ],
+      "group": "Group 2"
+    },
+    {
+      "id": "4efdeb74-d540-489a-b867-9b58fb9c5f8a",
+      "name": "Team 12",
+      "players": [
+        "6d2233dc-8572-48ad-aba8-050301dec71f",
+        "d4c500d5-e82a-484a-ab70-6a7cee972791",
+        "472a05f0-2be6-40c5-a7e7-2be80c8b0fc5"
+      ],
+      "player_names": [
+        "Leos",
+        "Milan",
+        "Gabe"
+      ],
+      "group": "Group 2"
+    }
+  ],
+  "matches": [
+    {
+      "id": "980a4afa-e4a1-4d31-ab23-0ed98d5c9a00",
+      "group": "Group 1",
+      "round": 1,
+      "match_num": 1,
+      "team_a_id": "0ad5c9dd-868d-41e6-8b13-ce2a1aba90a0",
+      "team_b_id": "c7b38610-6afc-4153-a674-e205002c05d1",
+      "score_a": 2,
+      "score_b": 0,
+      "is_complete": true,
+      "team_a_players": [
+        "beb31a5e-81fc-44db-a58a-63fd46d44288",
+        "a6d6ec4a-dcee-48df-93ef-880c5eae1cc7",
+        "a9050cfb-bb23-4ee8-bf51-a3d5943d937b"
+      ],
+      "team_b_players": [
+        "d186da0b-7b61-4263-9641-2aa8c9734c7e",
+        "fd52a52a-de79-46d2-a947-5b2d536434fd",
+        "a6485174-5687-4a66-8400-6c55048f0561"
+      ]
+    },
+    {
+      "id": "2a9e913e-8b2a-4927-94dc-0ffbc1275b4f",
+      "group": "Group 1",
+      "round": 1,
+      "match_num": 2,
+      "team_a_id": "0ad5c9dd-868d-41e6-8b13-ce2a1aba90a0",
+      "team_b_id": "28766fc0-0040-4ab4-8021-d7e1aa9f8588",
+      "score_a": 0,
+      "score_b": 2,
+      "is_complete": true,
+      "team_a_players": [
+        "beb31a5e-81fc-44db-a58a-63fd46d44288",
+        "a6d6ec4a-dcee-48df-93ef-880c5eae1cc7",
+        "a9050cfb-bb23-4ee8-bf51-a3d5943d937b"
+      ],
+      "team_b_players": [
+        "e0323501-1a16-4c3a-a0e1-712f2f64e6f4",
+        "ab8412ad-311c-4ae4-9f1f-9b5c3254a512",
+        "14df8e8d-7e87-491d-bb86-8c9ccfea04da"
+      ]
+    },
+    {
+      "id": "7db5f3bb-3424-4036-a43e-b4cdc9058170",
+      "group": "Group 1",
+      "round": 1,
+      "match_num": 3,
+      "team_a_id": "c7b38610-6afc-4153-a674-e205002c05d1",
+      "team_b_id": "28766fc0-0040-4ab4-8021-d7e1aa9f8588",
+      "score_a": 1,
+      "score_b": 2,
+      "is_complete": true,
+      "team_a_players": [
+        "d186da0b-7b61-4263-9641-2aa8c9734c7e",
+        "fd52a52a-de79-46d2-a947-5b2d536434fd",
+        "a6485174-5687-4a66-8400-6c55048f0561"
+      ],
+      "team_b_players": [
+        "e0323501-1a16-4c3a-a0e1-712f2f64e6f4",
+        "ab8412ad-311c-4ae4-9f1f-9b5c3254a512",
+        "14df8e8d-7e87-491d-bb86-8c9ccfea04da"
+      ]
+    },
+    {
+      "id": "f0511965-258d-43a9-941d-0dfb0d2cd882",
+      "group": "Group 1",
+      "round": 1,
+      "match_num": 4,
+      "team_a_id": "bc18eca0-b377-4134-9ed7-0ddb6cc747ff",
+      "team_b_id": "8672ee53-5280-463b-a8f8-977bcf0073ed",
+      "score_a": 0,
+      "score_b": 2,
+      "is_complete": true,
+      "team_a_players": [
+        "bd2cbd4b-d757-4e91-8e6e-dc464766fe98",
+        "73f2d661-7065-43f7-98b7-7674386117c4",
+        "078a0361-3394-4d1f-98ba-f021497236e0"
+      ],
+      "team_b_players": [
+        "e60be0d3-1d9e-4ba7-ac1f-166de8535f02",
+        "f25d78e7-25bf-468d-9002-2524c34fe38b",
+        "f137d4d4-e4c7-4d66-8c14-1855c6f06f52"
+      ]
+    },
+    {
+      "id": "a5b67197-1f6c-41b4-8c31-78889a82ca1f",
+      "group": "Group 1",
+      "round": 1,
+      "match_num": 5,
+      "team_a_id": "bc18eca0-b377-4134-9ed7-0ddb6cc747ff",
+      "team_b_id": "972987d1-98c3-418a-9c2e-e139d024a13d",
+      "score_a": 3,
+      "score_b": 2,
+      "is_complete": true,
+      "team_a_players": [
+        "bd2cbd4b-d757-4e91-8e6e-dc464766fe98",
+        "73f2d661-7065-43f7-98b7-7674386117c4",
+        "078a0361-3394-4d1f-98ba-f021497236e0"
+      ],
+      "team_b_players": [
+        "b2fcfebe-be9d-475e-ab38-c7a3b5935f44",
+        "84cd7667-e77a-4aee-b0d3-7cb72a5da16d",
+        "b426acf0-9ce4-4590-901d-85adb2e8cccd"
+      ]
+    },
+    {
+      "id": "e7813167-20cc-4097-aeeb-bb8c4a9466a5",
+      "group": "Group 1",
+      "round": 1,
+      "match_num": 6,
+      "team_a_id": "8672ee53-5280-463b-a8f8-977bcf0073ed",
+      "team_b_id": "972987d1-98c3-418a-9c2e-e139d024a13d",
+      "score_a": 2,
+      "score_b": 3,
+      "is_complete": true,
+      "team_a_players": [
+        "e60be0d3-1d9e-4ba7-ac1f-166de8535f02",
+        "f25d78e7-25bf-468d-9002-2524c34fe38b",
+        "f137d4d4-e4c7-4d66-8c14-1855c6f06f52"
+      ],
+      "team_b_players": [
+        "b2fcfebe-be9d-475e-ab38-c7a3b5935f44",
+        "84cd7667-e77a-4aee-b0d3-7cb72a5da16d",
+        "b426acf0-9ce4-4590-901d-85adb2e8cccd"
+      ]
+    },
+    {
+      "id": "4ab4a2f9-c5cc-4b30-9280-e1d4ec8bec3b",
+      "group": "Group 1",
+      "round": 2,
+      "match_num": 1,
+      "team_a_id": "0ad5c9dd-868d-41e6-8b13-ce2a1aba90a0",
+      "team_b_id": "8672ee53-5280-463b-a8f8-977bcf0073ed",
+      "score_a": 0,
+      "score_b": 4,
+      "is_complete": true,
+      "team_a_players": [
+        "beb31a5e-81fc-44db-a58a-63fd46d44288",
+        "a6d6ec4a-dcee-48df-93ef-880c5eae1cc7",
+        "a9050cfb-bb23-4ee8-bf51-a3d5943d937b"
+      ],
+      "team_b_players": [
+        "e60be0d3-1d9e-4ba7-ac1f-166de8535f02",
+        "f25d78e7-25bf-468d-9002-2524c34fe38b",
+        "f137d4d4-e4c7-4d66-8c14-1855c6f06f52"
+      ]
+    },
+    {
+      "id": "760cb03e-a27c-497e-ade7-fa79a79226c6",
+      "group": "Group 1",
+      "round": 2,
+      "match_num": 2,
+      "team_a_id": "0ad5c9dd-868d-41e6-8b13-ce2a1aba90a0",
+      "team_b_id": "28766fc0-0040-4ab4-8021-d7e1aa9f8588",
+      "score_a": 2,
+      "score_b": 0,
+      "is_complete": true,
+      "team_a_players": [
+        "beb31a5e-81fc-44db-a58a-63fd46d44288",
+        "a6d6ec4a-dcee-48df-93ef-880c5eae1cc7",
+        "a9050cfb-bb23-4ee8-bf51-a3d5943d937b"
+      ],
+      "team_b_players": [
+        "e0323501-1a16-4c3a-a0e1-712f2f64e6f4",
+        "ab8412ad-311c-4ae4-9f1f-9b5c3254a512",
+        "14df8e8d-7e87-491d-bb86-8c9ccfea04da"
+      ]
+    },
+    {
+      "id": "4d5d70f5-06cf-4275-9b64-2b08e2383329",
+      "group": "Group 1",
+      "round": 2,
+      "match_num": 3,
+      "team_a_id": "28766fc0-0040-4ab4-8021-d7e1aa9f8588",
+      "team_b_id": "8672ee53-5280-463b-a8f8-977bcf0073ed",
+      "score_a": 2,
+      "score_b": 1,
+      "is_complete": true,
+      "team_a_players": [
+        "e0323501-1a16-4c3a-a0e1-712f2f64e6f4",
+        "ab8412ad-311c-4ae4-9f1f-9b5c3254a512",
+        "14df8e8d-7e87-491d-bb86-8c9ccfea04da"
+      ],
+      "team_b_players": [
+        "e60be0d3-1d9e-4ba7-ac1f-166de8535f02",
+        "f25d78e7-25bf-468d-9002-2524c34fe38b",
+        "f137d4d4-e4c7-4d66-8c14-1855c6f06f52"
+      ]
+    },
+    {
+      "id": "f7c6062f-b01a-4413-9dba-aafd4e3f7de4",
+      "group": "Group 1",
+      "round": 2,
+      "match_num": 4,
+      "team_a_id": "bc18eca0-b377-4134-9ed7-0ddb6cc747ff",
+      "team_b_id": "972987d1-98c3-418a-9c2e-e139d024a13d",
+      "score_a": 3,
+      "score_b": 1,
+      "is_complete": true,
+      "team_a_players": [
+        "bd2cbd4b-d757-4e91-8e6e-dc464766fe98",
+        "73f2d661-7065-43f7-98b7-7674386117c4",
+        "078a0361-3394-4d1f-98ba-f021497236e0"
+      ],
+      "team_b_players": [
+        "b2fcfebe-be9d-475e-ab38-c7a3b5935f44",
+        "84cd7667-e77a-4aee-b0d3-7cb72a5da16d",
+        "b426acf0-9ce4-4590-901d-85adb2e8cccd"
+      ]
+    },
+    {
+      "id": "c3b97b9e-ae50-451d-9283-e3af114a49e0",
+      "group": "Group 1",
+      "round": 2,
+      "match_num": 5,
+      "team_a_id": "bc18eca0-b377-4134-9ed7-0ddb6cc747ff",
+      "team_b_id": "c7b38610-6afc-4153-a674-e205002c05d1",
+      "score_a": 3,
+      "score_b": 4,
+      "is_complete": true,
+      "team_a_players": [
+        "bd2cbd4b-d757-4e91-8e6e-dc464766fe98",
+        "73f2d661-7065-43f7-98b7-7674386117c4",
+        "078a0361-3394-4d1f-98ba-f021497236e0"
+      ],
+      "team_b_players": [
+        "d186da0b-7b61-4263-9641-2aa8c9734c7e",
+        "fd52a52a-de79-46d2-a947-5b2d536434fd",
+        "a6485174-5687-4a66-8400-6c55048f0561"
+      ]
+    },
+    {
+      "id": "967d6c83-1bac-4d88-9ba8-efcca05fd606",
+      "group": "Group 1",
+      "round": 2,
+      "match_num": 6,
+      "team_a_id": "c7b38610-6afc-4153-a674-e205002c05d1",
+      "team_b_id": "972987d1-98c3-418a-9c2e-e139d024a13d",
+      "score_a": 3,
+      "score_b": 1,
+      "is_complete": true,
+      "team_a_players": [
+        "d186da0b-7b61-4263-9641-2aa8c9734c7e",
+        "fd52a52a-de79-46d2-a947-5b2d536434fd",
+        "a6485174-5687-4a66-8400-6c55048f0561"
+      ],
+      "team_b_players": [
+        "b2fcfebe-be9d-475e-ab38-c7a3b5935f44",
+        "84cd7667-e77a-4aee-b0d3-7cb72a5da16d",
+        "b426acf0-9ce4-4590-901d-85adb2e8cccd"
+      ]
+    },
+    {
+      "id": "81197ad8-8850-4b1d-b35c-bc08cda47bf7",
+      "group": "Group 1",
+      "round": 3,
+      "match_num": 1,
+      "team_a_id": "8672ee53-5280-463b-a8f8-977bcf0073ed",
+      "team_b_id": "c7b38610-6afc-4153-a674-e205002c05d1",
+      "score_a": 4,
+      "score_b": 3,
+      "is_complete": true,
+      "team_a_players": [
+        "e60be0d3-1d9e-4ba7-ac1f-166de8535f02",
+        "f25d78e7-25bf-468d-9002-2524c34fe38b",
+        "f137d4d4-e4c7-4d66-8c14-1855c6f06f52"
+      ],
+      "team_b_players": [
+        "d186da0b-7b61-4263-9641-2aa8c9734c7e",
+        "fd52a52a-de79-46d2-a947-5b2d536434fd",
+        "a6485174-5687-4a66-8400-6c55048f0561"
+      ]
+    },
+    {
+      "id": "0522ecb2-260b-4deb-9414-284202222527",
+      "group": "Group 1",
+      "round": 3,
+      "match_num": 2,
+      "team_a_id": "c7b38610-6afc-4153-a674-e205002c05d1",
+      "team_b_id": "28766fc0-0040-4ab4-8021-d7e1aa9f8588",
+      "score_a": 2,
+      "score_b": 2,
+      "is_complete": true,
+      "team_a_players": [
+        "d186da0b-7b61-4263-9641-2aa8c9734c7e",
+        "fd52a52a-de79-46d2-a947-5b2d536434fd",
+        "a6485174-5687-4a66-8400-6c55048f0561"
+      ],
+      "team_b_players": [
+        "e0323501-1a16-4c3a-a0e1-712f2f64e6f4",
+        "ab8412ad-311c-4ae4-9f1f-9b5c3254a512",
+        "14df8e8d-7e87-491d-bb86-8c9ccfea04da"
+      ]
+    },
+    {
+      "id": "8edee678-72be-4b59-adc5-270b82e98984",
+      "group": "Group 1",
+      "round": 3,
+      "match_num": 3,
+      "team_a_id": "28766fc0-0040-4ab4-8021-d7e1aa9f8588",
+      "team_b_id": "8672ee53-5280-463b-a8f8-977bcf0073ed",
+      "score_a": 2,
+      "score_b": 1,
+      "is_complete": true,
+      "team_a_players": [
+        "e0323501-1a16-4c3a-a0e1-712f2f64e6f4",
+        "ab8412ad-311c-4ae4-9f1f-9b5c3254a512",
+        "14df8e8d-7e87-491d-bb86-8c9ccfea04da"
+      ],
+      "team_b_players": [
+        "e60be0d3-1d9e-4ba7-ac1f-166de8535f02",
+        "f25d78e7-25bf-468d-9002-2524c34fe38b",
+        "f137d4d4-e4c7-4d66-8c14-1855c6f06f52"
+      ]
+    },
+    {
+      "id": "479474cc-466c-4ce9-86cb-5516672abc60",
+      "group": "Group 1",
+      "round": 3,
+      "match_num": 4,
+      "team_a_id": "bc18eca0-b377-4134-9ed7-0ddb6cc747ff",
+      "team_b_id": "0ad5c9dd-868d-41e6-8b13-ce2a1aba90a0",
+      "score_a": 0,
+      "score_b": 2,
+      "is_complete": true,
+      "team_a_players": [
+        "bd2cbd4b-d757-4e91-8e6e-dc464766fe98",
+        "73f2d661-7065-43f7-98b7-7674386117c4",
+        "078a0361-3394-4d1f-98ba-f021497236e0"
+      ],
+      "team_b_players": [
+        "beb31a5e-81fc-44db-a58a-63fd46d44288",
+        "a6d6ec4a-dcee-48df-93ef-880c5eae1cc7",
+        "a9050cfb-bb23-4ee8-bf51-a3d5943d937b"
+      ]
+    },
+    {
+      "id": "e3e2c5e0-0470-4c3d-a43d-c5461382e5d3",
+      "group": "Group 1",
+      "round": 3,
+      "match_num": 5,
+      "team_a_id": "0ad5c9dd-868d-41e6-8b13-ce2a1aba90a0",
+      "team_b_id": "972987d1-98c3-418a-9c2e-e139d024a13d",
+      "score_a": 2,
+      "score_b": 1,
+      "is_complete": true,
+      "team_a_players": [
+        "beb31a5e-81fc-44db-a58a-63fd46d44288",
+        "a6d6ec4a-dcee-48df-93ef-880c5eae1cc7",
+        "a9050cfb-bb23-4ee8-bf51-a3d5943d937b"
+      ],
+      "team_b_players": [
+        "b2fcfebe-be9d-475e-ab38-c7a3b5935f44",
+        "84cd7667-e77a-4aee-b0d3-7cb72a5da16d",
+        "b426acf0-9ce4-4590-901d-85adb2e8cccd"
+      ]
+    },
+    {
+      "id": "4caa4573-7acf-4d95-b1ef-63a17b5e5ffc",
+      "group": "Group 1",
+      "round": 3,
+      "match_num": 6,
+      "team_a_id": "972987d1-98c3-418a-9c2e-e139d024a13d",
+      "team_b_id": "bc18eca0-b377-4134-9ed7-0ddb6cc747ff",
+      "score_a": 3,
+      "score_b": 2,
+      "is_complete": true,
+      "team_a_players": [
+        "b2fcfebe-be9d-475e-ab38-c7a3b5935f44",
+        "84cd7667-e77a-4aee-b0d3-7cb72a5da16d",
+        "b426acf0-9ce4-4590-901d-85adb2e8cccd"
+      ],
+      "team_b_players": [
+        "bd2cbd4b-d757-4e91-8e6e-dc464766fe98",
+        "73f2d661-7065-43f7-98b7-7674386117c4",
+        "078a0361-3394-4d1f-98ba-f021497236e0"
+      ]
+    },
+    {
+      "id": "08db3ff8-c8f4-4329-98d6-7a90326dee66",
+      "group": "Group 2",
+      "round": 1,
+      "match_num": 1,
+      "team_a_id": "80745107-311c-4f78-b1c6-7df6bccb5af6",
+      "team_b_id": "b07dfaf7-adb8-421e-99d8-cf78fa41f738",
+      "score_a": 1,
+      "score_b": 1,
+      "is_complete": true,
+      "team_a_players": [
+        "70460ee1-0c6a-4de2-a6db-98870b35f6d6",
+        "b05efa63-bd4a-4fd4-99ee-e157412ceca7",
+        "bbb38aab-b355-4796-8959-3fc7ce938d2d"
+      ],
+      "team_b_players": [
+        "a3a46e22-ec64-426b-8df6-3ec2434681ea",
+        "90a0aca0-5fd0-4c16-99d3-78f6e64f6ea3",
+        "62945ff2-ac8d-44ef-a0cd-898a08591389"
+      ]
+    },
+    {
+      "id": "1fcb3fa4-133d-4f6e-9b24-9b7ee9bf8d1e",
+      "group": "Group 2",
+      "round": 1,
+      "match_num": 2,
+      "team_a_id": "80745107-311c-4f78-b1c6-7df6bccb5af6",
+      "team_b_id": "03dea14d-3845-4472-be75-72b4b9efe441",
+      "score_a": 3,
+      "score_b": 0,
+      "is_complete": true,
+      "team_a_players": [
+        "70460ee1-0c6a-4de2-a6db-98870b35f6d6",
+        "b05efa63-bd4a-4fd4-99ee-e157412ceca7",
+        "bbb38aab-b355-4796-8959-3fc7ce938d2d"
+      ],
+      "team_b_players": [
+        "5bf4bfc2-1c08-464c-89d8-2dea345687b9",
+        "a0856fff-7585-49cf-b68e-d0f995ac8e6a",
+        "2052a4f6-0e30-4e22-95c9-21f9ecf097a3"
+      ]
+    },
+    {
+      "id": "7f4b321e-b933-46fe-9e37-d4825684a790",
+      "group": "Group 2",
+      "round": 1,
+      "match_num": 3,
+      "team_a_id": "b07dfaf7-adb8-421e-99d8-cf78fa41f738",
+      "team_b_id": "03dea14d-3845-4472-be75-72b4b9efe441",
+      "score_a": 1,
+      "score_b": 2,
+      "is_complete": true,
+      "team_a_players": [
+        "a3a46e22-ec64-426b-8df6-3ec2434681ea",
+        "90a0aca0-5fd0-4c16-99d3-78f6e64f6ea3",
+        "62945ff2-ac8d-44ef-a0cd-898a08591389"
+      ],
+      "team_b_players": [
+        "5bf4bfc2-1c08-464c-89d8-2dea345687b9",
+        "a0856fff-7585-49cf-b68e-d0f995ac8e6a",
+        "2052a4f6-0e30-4e22-95c9-21f9ecf097a3"
+      ]
+    },
+    {
+      "id": "bec32e58-19ad-409b-ab52-4cdd665ba2ed",
+      "group": "Group 2",
+      "round": 1,
+      "match_num": 4,
+      "team_a_id": "264e5b30-d9f5-4347-85d4-205f21d01e96",
+      "team_b_id": "eafd4624-78eb-4e34-82af-b3c5eb30372d",
+      "score_a": 5,
+      "score_b": 2,
+      "is_complete": true,
+      "team_a_players": [
+        "c95aabf3-6e7a-426c-b604-9359e67b2f90",
+        "2e375766-97a7-4cd9-a95d-af58c41a4f13",
+        "a9e32e40-128c-461a-998c-dd74c023c828"
+      ],
+      "team_b_players": [
+        "925807ae-5116-4e00-91eb-302713506644",
+        "9a8a5050-f8f0-47f0-ae41-e436da948dcb",
+        "893b7a4d-4379-4af9-865f-fe1b32462dde"
+      ]
+    },
+    {
+      "id": "f7f1f2a6-0ad9-4989-889f-82a7dac1e220",
+      "group": "Group 2",
+      "round": 1,
+      "match_num": 5,
+      "team_a_id": "264e5b30-d9f5-4347-85d4-205f21d01e96",
+      "team_b_id": "4efdeb74-d540-489a-b867-9b58fb9c5f8a",
+      "score_a": 1,
+      "score_b": 0,
+      "is_complete": true,
+      "team_a_players": [
+        "c95aabf3-6e7a-426c-b604-9359e67b2f90",
+        "2e375766-97a7-4cd9-a95d-af58c41a4f13",
+        "a9e32e40-128c-461a-998c-dd74c023c828"
+      ],
+      "team_b_players": [
+        "6d2233dc-8572-48ad-aba8-050301dec71f",
+        "d4c500d5-e82a-484a-ab70-6a7cee972791",
+        "472a05f0-2be6-40c5-a7e7-2be80c8b0fc5"
+      ]
+    },
+    {
+      "id": "f29576ee-202a-425b-9eba-7b06917edf3d",
+      "group": "Group 2",
+      "round": 1,
+      "match_num": 6,
+      "team_a_id": "eafd4624-78eb-4e34-82af-b3c5eb30372d",
+      "team_b_id": "4efdeb74-d540-489a-b867-9b58fb9c5f8a",
+      "score_a": 3,
+      "score_b": 1,
+      "is_complete": true,
+      "team_a_players": [
+        "925807ae-5116-4e00-91eb-302713506644",
+        "9a8a5050-f8f0-47f0-ae41-e436da948dcb",
+        "893b7a4d-4379-4af9-865f-fe1b32462dde"
+      ],
+      "team_b_players": [
+        "6d2233dc-8572-48ad-aba8-050301dec71f",
+        "d4c500d5-e82a-484a-ab70-6a7cee972791",
+        "472a05f0-2be6-40c5-a7e7-2be80c8b0fc5"
+      ]
+    },
+    {
+      "id": "404b8c99-33e2-4a8b-8d41-cb71c57463a4",
+      "group": "Group 2",
+      "round": 2,
+      "match_num": 1,
+      "team_a_id": "80745107-311c-4f78-b1c6-7df6bccb5af6",
+      "team_b_id": "264e5b30-d9f5-4347-85d4-205f21d01e96",
+      "score_a": 2,
+      "score_b": 1,
+      "is_complete": true,
+      "team_a_players": [
+        "70460ee1-0c6a-4de2-a6db-98870b35f6d6",
+        "b05efa63-bd4a-4fd4-99ee-e157412ceca7",
+        "bbb38aab-b355-4796-8959-3fc7ce938d2d"
+      ],
+      "team_b_players": [
+        "c95aabf3-6e7a-426c-b604-9359e67b2f90",
+        "2e375766-97a7-4cd9-a95d-af58c41a4f13",
+        "a9e32e40-128c-461a-998c-dd74c023c828"
+      ]
+    },
+    {
+      "id": "49c0a923-6edc-4255-8ef1-c1dd0848daa7",
+      "group": "Group 2",
+      "round": 2,
+      "match_num": 2,
+      "team_a_id": "80745107-311c-4f78-b1c6-7df6bccb5af6",
+      "team_b_id": "03dea14d-3845-4472-be75-72b4b9efe441",
+      "score_a": 3,
+      "score_b": 0,
+      "is_complete": true,
+      "team_a_players": [
+        "70460ee1-0c6a-4de2-a6db-98870b35f6d6",
+        "b05efa63-bd4a-4fd4-99ee-e157412ceca7",
+        "bbb38aab-b355-4796-8959-3fc7ce938d2d"
+      ],
+      "team_b_players": [
+        "5bf4bfc2-1c08-464c-89d8-2dea345687b9",
+        "a0856fff-7585-49cf-b68e-d0f995ac8e6a",
+        "2052a4f6-0e30-4e22-95c9-21f9ecf097a3"
+      ]
+    },
+    {
+      "id": "71896aa3-ecee-4b50-8336-1055bf33a91d",
+      "group": "Group 2",
+      "round": 2,
+      "match_num": 3,
+      "team_a_id": "03dea14d-3845-4472-be75-72b4b9efe441",
+      "team_b_id": "264e5b30-d9f5-4347-85d4-205f21d01e96",
+      "score_a": 1,
+      "score_b": 1,
+      "is_complete": true,
+      "team_a_players": [
+        "5bf4bfc2-1c08-464c-89d8-2dea345687b9",
+        "a0856fff-7585-49cf-b68e-d0f995ac8e6a",
+        "2052a4f6-0e30-4e22-95c9-21f9ecf097a3"
+      ],
+      "team_b_players": [
+        "c95aabf3-6e7a-426c-b604-9359e67b2f90",
+        "2e375766-97a7-4cd9-a95d-af58c41a4f13",
+        "a9e32e40-128c-461a-998c-dd74c023c828"
+      ]
+    },
+    {
+      "id": "48ffb665-ce63-481a-9dcc-9413b47d80c8",
+      "group": "Group 2",
+      "round": 2,
+      "match_num": 4,
+      "team_a_id": "eafd4624-78eb-4e34-82af-b3c5eb30372d",
+      "team_b_id": "b07dfaf7-adb8-421e-99d8-cf78fa41f738",
+      "score_a": 1,
+      "score_b": 3,
+      "is_complete": true,
+      "team_a_players": [
+        "925807ae-5116-4e00-91eb-302713506644",
+        "9a8a5050-f8f0-47f0-ae41-e436da948dcb",
+        "893b7a4d-4379-4af9-865f-fe1b32462dde"
+      ],
+      "team_b_players": [
+        "a3a46e22-ec64-426b-8df6-3ec2434681ea",
+        "90a0aca0-5fd0-4c16-99d3-78f6e64f6ea3",
+        "62945ff2-ac8d-44ef-a0cd-898a08591389"
+      ]
+    },
+    {
+      "id": "9b3515f4-dde4-4cf0-a7b3-e4e853650797",
+      "group": "Group 2",
+      "round": 2,
+      "match_num": 5,
+      "team_a_id": "eafd4624-78eb-4e34-82af-b3c5eb30372d",
+      "team_b_id": "4efdeb74-d540-489a-b867-9b58fb9c5f8a",
+      "score_a": 1,
+      "score_b": 2,
+      "is_complete": true,
+      "team_a_players": [
+        "925807ae-5116-4e00-91eb-302713506644",
+        "9a8a5050-f8f0-47f0-ae41-e436da948dcb",
+        "893b7a4d-4379-4af9-865f-fe1b32462dde"
+      ],
+      "team_b_players": [
+        "6d2233dc-8572-48ad-aba8-050301dec71f",
+        "d4c500d5-e82a-484a-ab70-6a7cee972791",
+        "472a05f0-2be6-40c5-a7e7-2be80c8b0fc5"
+      ]
+    },
+    {
+      "id": "5babc650-1f80-4f86-ae80-337616c3c53e",
+      "group": "Group 2",
+      "round": 2,
+      "match_num": 6,
+      "team_a_id": "b07dfaf7-adb8-421e-99d8-cf78fa41f738",
+      "team_b_id": "4efdeb74-d540-489a-b867-9b58fb9c5f8a",
+      "score_a": 4,
+      "score_b": 0,
+      "is_complete": true,
+      "team_a_players": [
+        "a3a46e22-ec64-426b-8df6-3ec2434681ea",
+        "90a0aca0-5fd0-4c16-99d3-78f6e64f6ea3",
+        "62945ff2-ac8d-44ef-a0cd-898a08591389"
+      ],
+      "team_b_players": [
+        "6d2233dc-8572-48ad-aba8-050301dec71f",
+        "d4c500d5-e82a-484a-ab70-6a7cee972791",
+        "472a05f0-2be6-40c5-a7e7-2be80c8b0fc5"
+      ]
+    },
+    {
+      "id": "54c906ee-741b-4190-8cd6-86fcf9d53924",
+      "group": "Group 2",
+      "round": 3,
+      "match_num": 1,
+      "team_a_id": "80745107-311c-4f78-b1c6-7df6bccb5af6",
+      "team_b_id": "264e5b30-d9f5-4347-85d4-205f21d01e96",
+      "score_a": 4,
+      "score_b": 0,
+      "is_complete": true,
+      "team_a_players": [
+        "70460ee1-0c6a-4de2-a6db-98870b35f6d6",
+        "b05efa63-bd4a-4fd4-99ee-e157412ceca7",
+        "bbb38aab-b355-4796-8959-3fc7ce938d2d"
+      ],
+      "team_b_players": [
+        "c95aabf3-6e7a-426c-b604-9359e67b2f90",
+        "2e375766-97a7-4cd9-a95d-af58c41a4f13",
+        "a9e32e40-128c-461a-998c-dd74c023c828"
+      ]
+    },
+    {
+      "id": "f0e1c836-c967-4fc6-88e3-f8fb16c4d86b",
+      "group": "Group 2",
+      "round": 3,
+      "match_num": 2,
+      "team_a_id": "80745107-311c-4f78-b1c6-7df6bccb5af6",
+      "team_b_id": "b07dfaf7-adb8-421e-99d8-cf78fa41f738",
+      "score_a": 1,
+      "score_b": 1,
+      "is_complete": true,
+      "team_a_players": [
+        "70460ee1-0c6a-4de2-a6db-98870b35f6d6",
+        "b05efa63-bd4a-4fd4-99ee-e157412ceca7",
+        "bbb38aab-b355-4796-8959-3fc7ce938d2d"
+      ],
+      "team_b_players": [
+        "a3a46e22-ec64-426b-8df6-3ec2434681ea",
+        "90a0aca0-5fd0-4c16-99d3-78f6e64f6ea3",
+        "62945ff2-ac8d-44ef-a0cd-898a08591389"
+      ]
+    },
+    {
+      "id": "2224a9c5-0b1f-42f5-b414-4c96afaf72f3",
+      "group": "Group 2",
+      "round": 3,
+      "match_num": 3,
+      "team_a_id": "b07dfaf7-adb8-421e-99d8-cf78fa41f738",
+      "team_b_id": "264e5b30-d9f5-4347-85d4-205f21d01e96",
+      "score_a": 3,
+      "score_b": 2,
+      "is_complete": true,
+      "team_a_players": [
+        "a3a46e22-ec64-426b-8df6-3ec2434681ea",
+        "90a0aca0-5fd0-4c16-99d3-78f6e64f6ea3",
+        "62945ff2-ac8d-44ef-a0cd-898a08591389"
+      ],
+      "team_b_players": [
+        "c95aabf3-6e7a-426c-b604-9359e67b2f90",
+        "2e375766-97a7-4cd9-a95d-af58c41a4f13",
+        "a9e32e40-128c-461a-998c-dd74c023c828"
+      ]
+    },
+    {
+      "id": "a8b3f17b-4936-465f-bbaa-c9f687745008",
+      "group": "Group 2",
+      "round": 3,
+      "match_num": 4,
+      "team_a_id": "03dea14d-3845-4472-be75-72b4b9efe441",
+      "team_b_id": "eafd4624-78eb-4e34-82af-b3c5eb30372d",
+      "score_a": 3,
+      "score_b": 1,
+      "is_complete": true,
+      "team_a_players": [
+        "5bf4bfc2-1c08-464c-89d8-2dea345687b9",
+        "a0856fff-7585-49cf-b68e-d0f995ac8e6a",
+        "2052a4f6-0e30-4e22-95c9-21f9ecf097a3"
+      ],
+      "team_b_players": [
+        "925807ae-5116-4e00-91eb-302713506644",
+        "9a8a5050-f8f0-47f0-ae41-e436da948dcb",
+        "893b7a4d-4379-4af9-865f-fe1b32462dde"
+      ]
+    },
+    {
+      "id": "c9f6ae25-d522-4995-b040-8e082c321238",
+      "group": "Group 2",
+      "round": 3,
+      "match_num": 5,
+      "team_a_id": "eafd4624-78eb-4e34-82af-b3c5eb30372d",
+      "team_b_id": "4efdeb74-d540-489a-b867-9b58fb9c5f8a",
+      "score_a": 1,
+      "score_b": 2,
+      "is_complete": true,
+      "team_a_players": [
+        "925807ae-5116-4e00-91eb-302713506644",
+        "9a8a5050-f8f0-47f0-ae41-e436da948dcb",
+        "893b7a4d-4379-4af9-865f-fe1b32462dde"
+      ],
+      "team_b_players": [
+        "6d2233dc-8572-48ad-aba8-050301dec71f",
+        "d4c500d5-e82a-484a-ab70-6a7cee972791",
+        "472a05f0-2be6-40c5-a7e7-2be80c8b0fc5"
+      ]
+    },
+    {
+      "id": "69e5a314-9e59-41d2-87a8-5875733b96ef",
+      "group": "Group 2",
+      "round": 3,
+      "match_num": 6,
+      "team_a_id": "03dea14d-3845-4472-be75-72b4b9efe441",
+      "team_b_id": "4efdeb74-d540-489a-b867-9b58fb9c5f8a",
+      "score_a": 1,
+      "score_b": 2,
+      "is_complete": true,
+      "team_a_players": [
+        "5bf4bfc2-1c08-464c-89d8-2dea345687b9",
+        "a0856fff-7585-49cf-b68e-d0f995ac8e6a",
+        "2052a4f6-0e30-4e22-95c9-21f9ecf097a3"
+      ],
+      "team_b_players": [
+        "6d2233dc-8572-48ad-aba8-050301dec71f",
+        "d4c500d5-e82a-484a-ab70-6a7cee972791",
+        "472a05f0-2be6-40c5-a7e7-2be80c8b0fc5"
+      ]
+    }
+  ],
+  "is_active": true
+}
