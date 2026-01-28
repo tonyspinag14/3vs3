@@ -25,7 +25,22 @@ def render_setup():
     if players:
         st.caption(f"Total Players: {len(players)}")
         with st.expander("Show Player List"):
-            st.dataframe(players)
+            edited_df = st.data_editor(
+                players,
+                hide_index=True,
+                column_config={
+                    "id": None, # Hide ID
+                    "name": st.column_config.TextColumn("Name", required=True)
+                },
+                key="player_editor"
+            )
+            
+            # Check for changes
+            # Convert back to list of dicts to compare or just save if different
+            if edited_df != players:
+                 # Update players list
+                 data_manager.save_players(edited_df)
+                 st.rerun()
             
     st.divider()
     
