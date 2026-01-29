@@ -131,3 +131,37 @@ def render_setup():
             # But multiselect sync is tricky. Streamlit executes script top-down. 
             # If we updated the object in memory, we should save it.
             # Next rerun will load it.
+            
+    st.divider()
+    
+    # --- Part 4: Data Management (Backup/Restore) ---
+    st.subheader("💾 Data Management")
+    st.info("Use this to backup your data or restore it if the app restarts.")
+    
+    col_dl, col_ul = st.columns(2)
+    
+    with col_dl:
+        st.write("Current Database")
+        try:
+            db_bytes = data_manager.get_db_binary()
+            st.download_button(
+                label="⬇ Download Database Backup",
+                data=db_bytes,
+                file_name="3vs3_app.db",
+                mime="application/x-sqlite3"
+            )
+        except Exception as e:
+            st.error(f"Error preparing download: {e}")
+            
+    with col_ul:
+        st.write("Restore Database")
+        uploaded_file = st.file_uploader("Upload .db file", type=["db", "sqlite", "sqlite3"], label_visibility="collapsed")
+        if uploaded_file is not None:
+             if st.button("⚠ Overwrite & Restore Data", type="primary"):
+                 try:
+                     bytes_data = uploaded_file.getvalue()
+                     data_manager.restore_db_from_binary(bytes_data)
+                     st.success("Database restored! Reloading...")
+                     st.rerun()
+                 except Exception as e:
+                     st.error(f"Restore failed: {e}")

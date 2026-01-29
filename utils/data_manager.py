@@ -1,7 +1,9 @@
 import json
 import os
+import shutil
 import pandas as pd
 from typing import List, Dict
+from utils.database import db, DB_FILE
 
 DATA_DIR = "data"
 PLAYERS_FILE = os.path.join(DATA_DIR, "players.json")
@@ -9,61 +11,84 @@ MATCHES_FILE = os.path.join(DATA_DIR, "matches_history.json")
 SESSION_FILE = os.path.join(DATA_DIR, "current_session.json")
 
 def ensure_data_dir():
+    # Only ensures directory exists, file creation handled by DB or migration
     if not os.path.exists(DATA_DIR):
         os.makedirs(DATA_DIR)
-    
-    if not os.path.exists(PLAYERS_FILE):
-        with open(PLAYERS_FILE, 'w') as f:
-            json.dump([], f)
-            
-    if not os.path.exists(MATCHES_FILE):
-        with open(MATCHES_FILE, 'w') as f:
-            json.dump([], f)
+
+def migrate_json_to_db_if_needed():
+    """Migrate legacy JSON data to SQLite if DB is empty and JSON exists."""
+    # Check if DB has players (proxy for initialized)
+    players = db.get_all_players()
+    if not players and os.path.exists(PLAYERS_FILE):
+        try:
+            with open(PLAYERS_FILE, 'r') as f:
+                legacy_players = json.load(f)
+            if legacy_players:
+               db.bulk_save_players(legacy_players)
+               print("Migrated players from JSON to DB.")
+        except Exception as e:
+            print(f"Migration error (Players): {e}")
+
+    # Check matches
+    matches = db.get_all_matches()
+    if not matches and os.path.exists(MATCHES_FILE):
+        try:
+            with open(MATCHES_FILE, 'r') as f:
+                legacy_matches = json.load(f)
+            if legacy_matches:
+                db.save_matches(legacy_matches)
+                print("Migrated matches from JSON to DB.")
+        except Exception as e:
+            print(f"Migration error (Matches): {e}")
+
+    # Check session
+    session = db.get_session()
+    if not session and os.path.exists(SESSION_FILE):
+        try:
+            with open(SESSION_FILE, 'r') as f:
+                legacy_session = json.load(f)
+            if legacy_session:
+                db.save_session(legacy_session)
+                print("Migrated session from JSON to DB.")
+        except Exception as e:
+            print(f"Migration error (Session): {e}")
+
+# Run migration on module load (simple check)
+ensure_data_dir()
+migrate_json_to_db_if_needed()
 
 def load_players() -> List[Dict]:
-    ensure_data_dir()
-    with open(PLAYERS_FILE, 'r') as f:
-        try:
-            return json.load(f)
-        except:
-            return []
+    return db.get_all_players()
 
 def save_players(players: List[Dict]):
-    ensure_data_dir()
-    with open(PLAYERS_FILE, 'w') as f:
-        json.dump(players, f, indent=2)
+    db.bulk_save_players(players)
 
 def load_matches_history() -> List[Dict]:
-    ensure_data_dir()
-    with open(MATCHES_FILE, 'r') as f:
-        try:
-            return json.load(f)
-        except:
-            return []
+    return db.get_all_matches()
 
 def save_matches_history(matches: List[Dict]):
-    ensure_data_dir()
-    with open(MATCHES_FILE, 'w') as f:
-        json.dump(matches, f, indent=2)
+    db.save_matches(matches)
 
 def load_current_session() -> Dict:
-    ensure_data_dir()
-    if not os.path.exists(SESSION_FILE):
-        return None
-    with open(SESSION_FILE, 'r') as f:
-        try:
-            return json.load(f)
-        except:
-            return None
+    return db.get_session()
 
 def save_current_session(session: Dict):
-    ensure_data_dir()
-    with open(SESSION_FILE, 'w') as f:
-        json.dump(session, f, indent=2)
+    db.save_session(session)
 
 def clear_current_session():
-    if os.path.exists(SESSION_FILE):
-        os.remove(SESSION_FILE)
+    db.clear_session()
+
+def get_db_binary():
+    """Return database file bytes for download."""
+    with open(DB_FILE, 'rb') as f:
+        return f.read()
+
+def restore_db_from_binary(file_bytes):
+    """Overwrite database file with provided bytes."""
+    with open(DB_FILE, 'wb') as f:
+        f.write(file_bytes)
+    # Re-init migration check or reload not strictly needed as next DB call reads file
+
 
 def calculate_leaderboard(players: List[Dict], matches: List[Dict]) -> pd.DataFrame:
     # Initialize stats for all players
